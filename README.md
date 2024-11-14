@@ -1,9 +1,5 @@
 
-# **Derma AI: Skin Disease Image Classifier for Accurate and Accessible Diagnosis**
-
-<p align="center"> <img src="Images\Readme_pictures\1.png"  alt="Derma AI logo" width="700" height="400"> </p>
-
-#### **Authors**: [Fridah Kimathi](https://github.com/FridahKimathi), [Scholar Chepkirui](https://github.com/Scholarchep), [Amos Kibet](https://github.com/AmosMaru), [Anthony Nene](https://github.com/AnthonyNene-Kiarie), [Eugene Kuloba](https://github.com/eugenekuloba) and [Beth Mithamor](https://github.com/Mythamor)
+# **Skin Disease Diagnosis**
 
 
 Table of Contents
@@ -16,7 +12,6 @@ Table of Contents
  * [Data Preprocessing](#Data-Preprocessing)
  * [Model Architecture](#Model-Architecture)
  * [Model Evaluation](#Model-Evaluation)
- * [Web Application](#Web-Application)
  * [Demo](#Demo)
  * [Conclusion](#Conclusion)
  * [Limitations](#Limitations)
@@ -66,22 +61,6 @@ The model's accuracy, indicating the proportion of correctly classified skin dis
          Training and Validation Accuracy and Loss
 <img src="Images\Readme_pictures\loss_acc.png" alt="Loss and accuracy" width="949">
 
-## Web Application:
-***
-
-To make the skin disease image classifier easily accessible to users, it was integrated into a user-friendly web application. Users can upload images of their skin diseases, and the application provides an accurate diagnosis of the skin condition. The application only accepts images that contain human skin and gives an error message if the uploaded image is not a valid image file or if the skin disease is not in our database yet.
-
-The skin disease image classifier web application is powered by Flask, a popular Python-based web framework, and is hosted on the Google Cloud platform, ensuring reliability and scalability.
-
-[`Derma AI website`](https://skin-disease-project-384422.uc.r.appspot.com/)
-
-<img src="https://user-images.githubusercontent.com/98489395/235007469-93d33cf4-d514-4ffe-a751-5fe49ccb2d5c.png" alt="frontpage_website" width="949" >
-
-## Demo:
-***
-
-Insert gif or link to demo
-
 ## Conclusion:
 ***
 
@@ -124,7 +103,6 @@ We appreciate your decision to use our skin disease image classifier, and we hop
 ├── Data
 ├── Images
 ├── Notebooks
-├── website
 ├── DermaAI.ipynb
 ├── README.md
 └── Skin_Image_Classifier_Presentation.pdf
